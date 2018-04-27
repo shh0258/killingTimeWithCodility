@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE06C4D72092F47600810404 /* FrogJmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE06C4D52092F47500810404 /* FrogJmp.cpp */; };
 		CE3C919F20906069006E679B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE3C919E20906069006E679B /* main.cpp */; };
 		CE4B83D12092A38500187DB4 /* CyclieRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83CF2092A38500187DB4 /* CyclieRotation.cpp */; };
 		CE4B83D42092A4E600187DB4 /* BinaryCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83D22092A4E600187DB4 /* BinaryCount.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE06C4D52092F47500810404 /* FrogJmp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FrogJmp.cpp; sourceTree = "<group>"; };
+		CE06C4D62092F47600810404 /* FrogJmp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FrogJmp.hpp; sourceTree = "<group>"; };
 		CE3C919B20906069006E679B /* testforAlgo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testforAlgo; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3C919E20906069006E679B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CE4B83CF2092A38500187DB4 /* CyclieRotation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CyclieRotation.cpp; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				CE3C919E20906069006E679B /* main.cpp */,
+				CE06C4D52092F47500810404 /* FrogJmp.cpp */,
+				CE06C4D62092F47600810404 /* FrogJmp.hpp */,
 				CE4B83DB2092DB8A00187DB4 /* PermMissingElem.cpp */,
 				CE4B83DC2092DB8A00187DB4 /* PermMissingElem.hpp */,
 				CE4B83D52092B70300187DB4 /* OddOccurrencesInArray.cpp */,
@@ -141,6 +146,7 @@
 				CE4B83D12092A38500187DB4 /* CyclieRotation.cpp in Sources */,
 				CE4B83D42092A4E600187DB4 /* BinaryCount.cpp in Sources */,
 				CE3C919F20906069006E679B /* main.cpp in Sources */,
+				CE06C4D72092F47600810404 /* FrogJmp.cpp in Sources */,
 				CE4B83D72092B70300187DB4 /* OddOccurrencesInArray.cpp in Sources */,
 				CE4B83DD2092DB8A00187DB4 /* PermMissingElem.cpp in Sources */,
 			);

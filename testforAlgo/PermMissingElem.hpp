@@ -9,12 +9,13 @@
 #ifndef PermMissingElem_hpp
 #define PermMissingElem_hpp
 
+#include "iostream"
 #include <stdio.h>
 #include <vector>
-#include "iostream"
+
 using namespace std;
 
-int solution(vector<int> &A);
-int addArray(vector<int> &A);
+int solution1(vector<int> &A);
+long addArray(vector<int> &A, long count);
 
 #endif /* PermMissingElem_hpp */
