@@ -12,15 +12,14 @@
 //#include "OddOccurrencesInArray.hpp"
 //#include "PermMissingElem.hpp"
 //#include "FrogJmp.hpp"
-#include "TapeEquilibrium.hpp"
+//#include "TapeEquilibrium.hpp"
+#include "PermCheck.hpp"
 
 int main(int argc, const char * argv[]) {
     vector<int> v;
-    v.push_back(-10);
-    v.push_back(-20);
-    v.push_back(-30);
-    v.push_back(-40);
-    v.push_back(100);
+    v.push_back(1);
+    v.push_back(2);
+    v.push_back(3);
     cout << "ex3) [*iter] iterator : ";
     vector<int>::iterator iter;
     for(iter = v.begin(); iter != v.end() ; iter++){
@@ -28,6 +27,6 @@ int main(int argc, const char * argv[]) {
     }
     cout << endl << endl;
     
-    cout<<solution2(v)<<endl;
+    cout<<solution3(v)<<endl;
     return 0;
 }
