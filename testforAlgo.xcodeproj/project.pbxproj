@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		CE3C919F20906069006E679B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE3C919E20906069006E679B /* main.cpp */; };
+		CE4B83D12092A38500187DB4 /* CyclieRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83CF2092A38500187DB4 /* CyclieRotation.cpp */; };
+		CE4B83D42092A4E600187DB4 /* BinaryCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83D22092A4E600187DB4 /* BinaryCount.cpp */; };
+		CE4B83D72092B70300187DB4 /* OddOccurrencesInArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83D52092B70300187DB4 /* OddOccurrencesInArray.cpp */; };
+		CE4B83DD2092DB8A00187DB4 /* PermMissingElem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83DB2092DB8A00187DB4 /* PermMissingElem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		CE3C919B20906069006E679B /* testforAlgo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testforAlgo; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3C919E20906069006E679B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CE4B83CF2092A38500187DB4 /* CyclieRotation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CyclieRotation.cpp; sourceTree = "<group>"; };
+		CE4B83D02092A38500187DB4 /* CyclieRotation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CyclieRotation.hpp; sourceTree = "<group>"; };
+		CE4B83D22092A4E600187DB4 /* BinaryCount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryCount.cpp; sourceTree = "<group>"; };
+		CE4B83D32092A4E600187DB4 /* BinaryCount.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryCount.hpp; sourceTree = "<group>"; };
+		CE4B83D52092B70300187DB4 /* OddOccurrencesInArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OddOccurrencesInArray.cpp; sourceTree = "<group>"; };
+		CE4B83D62092B70300187DB4 /* OddOccurrencesInArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OddOccurrencesInArray.hpp; sourceTree = "<group>"; };
+		CE4B83DB2092DB8A00187DB4 /* PermMissingElem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PermMissingElem.cpp; sourceTree = "<group>"; };
+		CE4B83DC2092DB8A00187DB4 /* PermMissingElem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PermMissingElem.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				CE3C919E20906069006E679B /* main.cpp */,
+				CE4B83DB2092DB8A00187DB4 /* PermMissingElem.cpp */,
+				CE4B83DC2092DB8A00187DB4 /* PermMissingElem.hpp */,
+				CE4B83D52092B70300187DB4 /* OddOccurrencesInArray.cpp */,
+				CE4B83D62092B70300187DB4 /* OddOccurrencesInArray.hpp */,
+				CE4B83D22092A4E600187DB4 /* BinaryCount.cpp */,
+				CE4B83D32092A4E600187DB4 /* BinaryCount.hpp */,
+				CE4B83CF2092A38500187DB4 /* CyclieRotation.cpp */,
+				CE4B83D02092A38500187DB4 /* CyclieRotation.hpp */,
 			);
 			path = testforAlgo;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4B83D12092A38500187DB4 /* CyclieRotation.cpp in Sources */,
+				CE4B83D42092A4E600187DB4 /* BinaryCount.cpp in Sources */,
 				CE3C919F20906069006E679B /* main.cpp in Sources */,
+				CE4B83D72092B70300187DB4 /* OddOccurrencesInArray.cpp in Sources */,
+				CE4B83DD2092DB8A00187DB4 /* PermMissingElem.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
