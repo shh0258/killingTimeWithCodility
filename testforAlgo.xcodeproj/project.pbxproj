@@ -16,6 +16,7 @@
 		CE4B83D72092B70300187DB4 /* OddOccurrencesInArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83D52092B70300187DB4 /* OddOccurrencesInArray.cpp */; };
 		CE4B83DD2092DB8A00187DB4 /* PermMissingElem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83DB2092DB8A00187DB4 /* PermMissingElem.cpp */; };
 		CE74AA9520BB801800FAF47A /* MissingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE74AA9320BB801800FAF47A /* MissingInteger.cpp */; };
+		CE74AA9820BB910200FAF47A /* FrogRiverOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE74AA9720BB910200FAF47A /* FrogRiverOne.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,8 @@
 		CE4B83DC2092DB8A00187DB4 /* PermMissingElem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PermMissingElem.hpp; sourceTree = "<group>"; };
 		CE74AA9320BB801800FAF47A /* MissingInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MissingInteger.cpp; sourceTree = "<group>"; };
 		CE74AA9420BB801800FAF47A /* MissingInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MissingInteger.hpp; sourceTree = "<group>"; };
+		CE74AA9620BB910200FAF47A /* FrogRiverOne.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FrogRiverOne.hpp; sourceTree = "<group>"; };
+		CE74AA9720BB910200FAF47A /* FrogRiverOne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FrogRiverOne.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				CE3C919E20906069006E679B /* main.cpp */,
+				CE74AA9720BB910200FAF47A /* FrogRiverOne.cpp */,
+				CE74AA9620BB910200FAF47A /* FrogRiverOne.hpp */,
 				CE74AA9320BB801800FAF47A /* MissingInteger.cpp */,
 				CE74AA9420BB801800FAF47A /* MissingInteger.hpp */,
 				CE06C4DB2093113A00810404 /* PermCheck.cpp */,
@@ -167,6 +172,7 @@
 				CE4B83DD2092DB8A00187DB4 /* PermMissingElem.cpp in Sources */,
 				CE06C4DA2092FA4100810404 /* TapeEquilibrium.cpp in Sources */,
 				CE74AA9520BB801800FAF47A /* MissingInteger.cpp in Sources */,
+				CE74AA9820BB910200FAF47A /* FrogRiverOne.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
