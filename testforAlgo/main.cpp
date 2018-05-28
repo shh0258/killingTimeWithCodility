@@ -13,20 +13,16 @@
 //#include "PermMissingElem.hpp"
 //#include "FrogJmp.hpp"
 //#include "TapeEquilibrium.hpp"
-#include "PermCheck.hpp"
+//#include "PermCheck.hpp"
+#include "MissingInteger.hpp"
 
 int main(int argc, const char * argv[]) {
-    vector<int> v;
-    v.push_back(1);
-    v.push_back(2);
-    v.push_back(3);
-    cout << "ex3) [*iter] iterator : ";
-    vector<int>::iterator iter;
-    for(iter = v.begin(); iter != v.end() ; iter++){
-        cout << *iter << " ";
-    }
-    cout << endl << endl;
-    
-    cout<<solution3(v)<<endl;
+    vector<int> A;
+    A.push_back(1);
+    A.push_back(2);
+    A.push_back(4);
+    A.push_back(5);
+    cout<<solution4(A)<<endl;
     return 0;
 }
+

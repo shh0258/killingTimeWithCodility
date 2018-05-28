@@ -15,6 +15,7 @@
 		CE4B83D42092A4E600187DB4 /* BinaryCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83D22092A4E600187DB4 /* BinaryCount.cpp */; };
 		CE4B83D72092B70300187DB4 /* OddOccurrencesInArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83D52092B70300187DB4 /* OddOccurrencesInArray.cpp */; };
 		CE4B83DD2092DB8A00187DB4 /* PermMissingElem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83DB2092DB8A00187DB4 /* PermMissingElem.cpp */; };
+		CE74AA9520BB801800FAF47A /* MissingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE74AA9320BB801800FAF47A /* MissingInteger.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		CE4B83D62092B70300187DB4 /* OddOccurrencesInArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OddOccurrencesInArray.hpp; sourceTree = "<group>"; };
 		CE4B83DB2092DB8A00187DB4 /* PermMissingElem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PermMissingElem.cpp; sourceTree = "<group>"; };
 		CE4B83DC2092DB8A00187DB4 /* PermMissingElem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PermMissingElem.hpp; sourceTree = "<group>"; };
+		CE74AA9320BB801800FAF47A /* MissingInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MissingInteger.cpp; sourceTree = "<group>"; };
+		CE74AA9420BB801800FAF47A /* MissingInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MissingInteger.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				CE3C919E20906069006E679B /* main.cpp */,
+				CE74AA9320BB801800FAF47A /* MissingInteger.cpp */,
+				CE74AA9420BB801800FAF47A /* MissingInteger.hpp */,
 				CE06C4DB2093113A00810404 /* PermCheck.cpp */,
 				CE06C4DC2093113A00810404 /* PermCheck.hpp */,
 				CE06C4D82092FA4100810404 /* TapeEquilibrium.cpp */,
@@ -161,6 +166,7 @@
 				CE4B83D72092B70300187DB4 /* OddOccurrencesInArray.cpp in Sources */,
 				CE4B83DD2092DB8A00187DB4 /* PermMissingElem.cpp in Sources */,
 				CE06C4DA2092FA4100810404 /* TapeEquilibrium.cpp in Sources */,
+				CE74AA9520BB801800FAF47A /* MissingInteger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
