@@ -12,19 +12,16 @@ vector<int> solution5(int N, vector<int> &A) {
     vector<int>::iterator A_iter;
     vector<int>::iterator iter;
     A_iter=A.begin();
-    int max=0;
-    
+
     for(int i =0; i<A.size(); i++) {
         if(*A_iter>N) {
-            setMaxValue(max, result);
+            setMaxValue(findMaxValue(result), result);
             cout<<"*iter>N"<<endl;
             for(iter=result.begin(); iter!= result.end(); ++iter) {
                 cout<<*iter<<endl;
             }
         } else {
-            if(++result[*A_iter-1]>max){
-                max=result[*A_iter-1];
-            }
+            result.at(*A_iter-1)++;
             cout<<"smaller than N"<<endl;
             for(iter=result.begin(); iter!= result.end(); ++iter) {
                 cout<<*iter<<endl;
@@ -35,20 +32,53 @@ vector<int> solution5(int N, vector<int> &A) {
     return result;
 }
 
+int findMaxValue(vector<int> &result) {
+    vector<int>::iterator iter;
+    int temp=0;
+    for(iter=result.begin(); iter!=result.end(); ++iter) {
+        if(temp<*iter) {
+            temp=*iter;
+        }
+    }
+    return temp;
+}
+
 void setMaxValue(int max, vector<int> &result) {
     vector<int>::iterator iter;
     for(iter=result.begin(); iter!=result.end(); ++iter) {
         *iter=max;
     }
 }
-
-//int findMaxValue(vector<int> &result) {
+//
+//vector<int> solution5(int N, vector<int> &A) {
+//    vector<int> result(N, 0);
+//    vector<int>::iterator A_iter;
 //    vector<int>::iterator iter;
-//    int temp=0;
+//    A_iter=A.begin();
+//    int max=0; //최고
+//    int temmax=0;//그당시 최고
+//
+//    for(int i =0; i<A.size(); i++) {
+//        if(*A_iter<=N) {
+//            if(temmax==0 || temmax<=result[*A_iter-1]) {
+//                result[*A_iter-1]++;
+//                if(max<result[*A_iter-1]) {
+//                    max=result[*A_iter-1];
+//                }
+//            } else {
+//                result[*A_iter-1]=temmax+1;
+//                max=result[*A_iter-1];
+//            }
+//        } else {
+//            temmax=max;
+//        }
+//        ++A_iter;
+//    }
+//
 //    for(iter=result.begin(); iter!=result.end(); ++iter) {
-//        if(temp<*iter) {
-//            temp=*iter;
+//        if(*iter<temmax) {
+//            *iter=temmax;
 //        }
 //    }
-//    return temp;
+//    return result;
 //}
