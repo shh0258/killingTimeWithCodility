@@ -17,6 +17,7 @@
 		CE4B83DD2092DB8A00187DB4 /* PermMissingElem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83DB2092DB8A00187DB4 /* PermMissingElem.cpp */; };
 		CE74AA9520BB801800FAF47A /* MissingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE74AA9320BB801800FAF47A /* MissingInteger.cpp */; };
 		CE74AA9820BB910200FAF47A /* FrogRiverOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE74AA9720BB910200FAF47A /* FrogRiverOne.cpp */; };
+		CE74AA9B20BB927200FAF47A /* MaxCounters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE74AA9920BB927200FAF47A /* MaxCounters.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,8 @@
 		CE74AA9420BB801800FAF47A /* MissingInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MissingInteger.hpp; sourceTree = "<group>"; };
 		CE74AA9620BB910200FAF47A /* FrogRiverOne.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FrogRiverOne.hpp; sourceTree = "<group>"; };
 		CE74AA9720BB910200FAF47A /* FrogRiverOne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FrogRiverOne.cpp; sourceTree = "<group>"; };
+		CE74AA9920BB927200FAF47A /* MaxCounters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxCounters.cpp; sourceTree = "<group>"; };
+		CE74AA9A20BB927200FAF47A /* MaxCounters.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxCounters.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				CE3C919E20906069006E679B /* main.cpp */,
+				CE74AA9920BB927200FAF47A /* MaxCounters.cpp */,
+				CE74AA9A20BB927200FAF47A /* MaxCounters.hpp */,
 				CE74AA9720BB910200FAF47A /* FrogRiverOne.cpp */,
 				CE74AA9620BB910200FAF47A /* FrogRiverOne.hpp */,
 				CE74AA9320BB801800FAF47A /* MissingInteger.cpp */,
@@ -163,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE74AA9B20BB927200FAF47A /* MaxCounters.cpp in Sources */,
 				CE06C4DD2093113A00810404 /* PermCheck.cpp in Sources */,
 				CE4B83D12092A38500187DB4 /* CyclieRotation.cpp in Sources */,
 				CE4B83D42092A4E600187DB4 /* BinaryCount.cpp in Sources */,

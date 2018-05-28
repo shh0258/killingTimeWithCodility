@@ -14,15 +14,26 @@
 //#include "FrogJmp.hpp"
 //#include "TapeEquilibrium.hpp"
 //#include "PermCheck.hpp"
-#include "MissingInteger.hpp"
+//#include "MissingInteger.hpp"
+#include "MaxCounters.hpp"
 
 int main(int argc, const char * argv[]) {
-    vector<int> A;
-    A.push_back(1);
-    A.push_back(2);
-    A.push_back(4);
-    A.push_back(5);
-    cout<<solution4(A)<<endl;
+    vector<int> temp;
+    vector<int> temp2;
+    vector<int>::iterator iter;
+    temp.push_back(3);
+    temp.push_back(4);
+    temp.push_back(4);
+    temp.push_back(6);
+    temp.push_back(1);
+    temp.push_back(4);
+    temp.push_back(4);
+    
+    temp2=solution5(5, temp);
+    cout<<"result: "<<endl;
+    for(iter=temp2.begin(); iter!= temp2.end(); ++iter) {
+        cout<<*iter<<endl;
+    }
     return 0;
 }
 
