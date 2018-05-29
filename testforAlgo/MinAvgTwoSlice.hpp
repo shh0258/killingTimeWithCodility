@@ -15,5 +15,5 @@
 using namespace std;
 
 int solution6(vector<int> &A);
-double calculator(int start, int end, vector<int> &A);
+double modTotal(double total, int start, int end);
 #endif /* MinAvgTwoSlice_hpp */

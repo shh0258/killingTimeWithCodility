@@ -21,17 +21,19 @@
 int main(int argc, const char * argv[]) {
     vector<int> temp;
     vector<int>::iterator iter;
+    temp.push_back(10);
+    temp.push_back(10);
+    temp.push_back(-1);
+    temp.push_back(2);
     temp.push_back(4);
+    temp.push_back(-1);
     temp.push_back(2);
-    temp.push_back(2);
-    temp.push_back(5);
-    temp.push_back(1);
-    temp.push_back(5);
-    temp.push_back(8);
+    temp.push_back(-1);
     cout<<"result: "<<endl;
     for(iter=temp.begin(); iter!= temp.end(); ++iter) {
         cout<<*iter<<endl;
     }
+    cout<<"---------------------"<<endl;
     cout<<solution6(temp)<<endl;
     
     return 0;
