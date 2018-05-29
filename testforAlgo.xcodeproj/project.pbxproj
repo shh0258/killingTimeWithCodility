@@ -15,6 +15,7 @@
 		CE4B83D42092A4E600187DB4 /* BinaryCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83D22092A4E600187DB4 /* BinaryCount.cpp */; };
 		CE4B83D72092B70300187DB4 /* OddOccurrencesInArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83D52092B70300187DB4 /* OddOccurrencesInArray.cpp */; };
 		CE4B83DD2092DB8A00187DB4 /* PermMissingElem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4B83DB2092DB8A00187DB4 /* PermMissingElem.cpp */; };
+		CE61F1B920BCE06500D8DFD8 /* MinAvgTwoSlice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE61F1B720BCE06500D8DFD8 /* MinAvgTwoSlice.cpp */; };
 		CE74AA9520BB801800FAF47A /* MissingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE74AA9320BB801800FAF47A /* MissingInteger.cpp */; };
 		CE74AA9820BB910200FAF47A /* FrogRiverOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE74AA9720BB910200FAF47A /* FrogRiverOne.cpp */; };
 		CE74AA9B20BB927200FAF47A /* MaxCounters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE74AA9920BB927200FAF47A /* MaxCounters.cpp */; };
@@ -49,6 +50,8 @@
 		CE4B83D62092B70300187DB4 /* OddOccurrencesInArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OddOccurrencesInArray.hpp; sourceTree = "<group>"; };
 		CE4B83DB2092DB8A00187DB4 /* PermMissingElem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PermMissingElem.cpp; sourceTree = "<group>"; };
 		CE4B83DC2092DB8A00187DB4 /* PermMissingElem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PermMissingElem.hpp; sourceTree = "<group>"; };
+		CE61F1B720BCE06500D8DFD8 /* MinAvgTwoSlice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinAvgTwoSlice.cpp; sourceTree = "<group>"; };
+		CE61F1B820BCE06500D8DFD8 /* MinAvgTwoSlice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinAvgTwoSlice.hpp; sourceTree = "<group>"; };
 		CE74AA9320BB801800FAF47A /* MissingInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MissingInteger.cpp; sourceTree = "<group>"; };
 		CE74AA9420BB801800FAF47A /* MissingInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MissingInteger.hpp; sourceTree = "<group>"; };
 		CE74AA9620BB910200FAF47A /* FrogRiverOne.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FrogRiverOne.hpp; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				CE4B83D32092A4E600187DB4 /* BinaryCount.hpp */,
 				CE4B83CF2092A38500187DB4 /* CyclieRotation.cpp */,
 				CE4B83D02092A38500187DB4 /* CyclieRotation.hpp */,
+				CE61F1B720BCE06500D8DFD8 /* MinAvgTwoSlice.cpp */,
+				CE61F1B820BCE06500D8DFD8 /* MinAvgTwoSlice.hpp */,
 			);
 			path = testforAlgo;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 				CE06C4DA2092FA4100810404 /* TapeEquilibrium.cpp in Sources */,
 				CE74AA9520BB801800FAF47A /* MissingInteger.cpp in Sources */,
 				CE74AA9820BB910200FAF47A /* FrogRiverOne.cpp in Sources */,
+				CE61F1B920BCE06500D8DFD8 /* MinAvgTwoSlice.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
